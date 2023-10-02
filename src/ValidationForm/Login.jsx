@@ -73,7 +73,7 @@ export const Login = () => {
           <p>
             If you Dont have an account.{" "}
             <span style={{ color: "red" }}>
-              <Link to="/register">Register here</Link>
+              <Link to="/register">Register  here</Link>
             </span>
           </p>
         </Grid>
