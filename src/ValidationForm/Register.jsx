@@ -115,6 +115,7 @@ export const Register = () => {
               <span style={{ color: "red" }}>
                 <Link to="/"> Login here</Link>
               </span>
+              
             </p>
           </Grid>
        
