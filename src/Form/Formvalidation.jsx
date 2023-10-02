@@ -38,8 +38,7 @@ export const Formvalidation=()=>{
                     </Grid>
                     <Grid item xs={12}>
                         <Button type="submit">Submit </Button>
-                    </Grid>
-                    
+                    </Grid>                    
                 </Grid>
             </form>
         </div>
