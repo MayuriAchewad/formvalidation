@@ -8,6 +8,7 @@ export const Landing =()=>{
     return(
         <div>
             <BrowserRouter>
+            
                 <Routes>
                     {/* <Route path="./" element={<Register/>} /> */}
                     <Route path="/" element={<Login/>} />
