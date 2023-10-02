@@ -6,6 +6,7 @@ export const Formvalidation=()=>{
 
     const formik = useFormik({
         initialValues:{
+            
             name:"",
             email:"",
             password:"",
