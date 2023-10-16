@@ -77,6 +77,7 @@ export const Register = () => {
           </Grid>
           <Grid item xs={12}>
             <TextField
+              data-testid="register"
               placeholder="UserName"
               required
               name="username"

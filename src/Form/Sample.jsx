@@ -40,11 +40,11 @@ export const Sample = () => {
                     <h1>Form</h1>
                 </Grid>
                 <Grid item xs={12}  md={6}>
-                    <TextField {...formik.getFieldProps('name')} variant="outlined" type="text" fullWidth placeholder="name" name="name"/>
+                    <TextField {...formik.getFieldProps('name')} data-testid="validation" variant="outlined" type="text" fullWidth placeholder="name" name="name"/>
                     {formik.touched.name && formik.errors.name ? <div style={{textAlign:"left", color:"red"}}>{formik.errors.name}</div>:null}
                 </Grid>
                 <Grid item xs={12} md={6}>
-                    <TextField {...formik.getFieldProps('email')} variant="outlined" placeholder="email" fullWidth type="email" name="email" />
+                    <TextField {...formik.getFieldProps('email')} data-testid="validation" variant="outlined" placeholder="email" fullWidth type="email" name="email" />
                     {formik.touched.email ? <div style={{textAlign:"left", color:"red"}}>{formik.errors.email}</div>:null}
                 </Grid>
                 <Grid item xs={12}>
@@ -52,7 +52,7 @@ export const Sample = () => {
                     {formik.touched.channel ? <div style={{textAlign:"left", color:"red"}}>{formik.errors.channel}</div>: null}
                 </Grid>
                 <Grid item xs={6}>
-                    <Button type="submit" variant="contained" fullWidth>Submit</Button>
+                    <Button  type="submit" variant="contained" fullWidth>Submit</Button>
                 </Grid>
                 <Grid item xs={6}>
                     <Button type="reset"  variant="contained" color="error" fullWidth>Cancel</Button>

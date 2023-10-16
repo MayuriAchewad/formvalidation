@@ -41,6 +41,7 @@ export const Login = () => {
       <Grid container spacing={2}>
         <Grid item xs={12}>
           <TextField
+            data-testid="validate"
             required
             name="username"
             onChange={formik.handleChange}
