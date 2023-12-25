@@ -54,7 +54,6 @@ export const OldSample = () => {
             <h1>Form</h1>
           </Grid>
           <Grid item xs={12}>
-            
             <TextField
               onChange={formik.handleChange}
               onBlur={formik.handleBlur}

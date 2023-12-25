@@ -1,4 +1,6 @@
-
+body{
+  background-color:rgb(9, 57, 88);
+}
 .form{
   border: 2px solid red;
   box-shadow: 5px 5px;
