@@ -8,3 +8,7 @@ body{
   padding: 0px 30px 30px 10px;
 }
 
+.app{
+  background-image: url("/public/images/bg.jpg");
+  background-repeat: "no-repeat"
+}
